@@ -1,0 +1,231 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#top_part{
+    height: 43vw;
+}
+#bg_img{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0) 112%, rgba(0, 0, 0, 0.8) 104% ),url(./Assets/Images/NetflixBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 11%;
+}
+.buttons{
+    display: flex;
+    padding: 2% 2%;
+    gap: 2vw;
+}
+.btn{
+    width: 8vw;
+    height: 2.5vw;
+    font-size: large;
+    background-color: black;
+    border-radius: 5px;
+    padding: initial;
+}
+#signIn{
+    background-color: red;
+    width: 5vw;
+}
+#logo{
+    display: flex;
+    width: 15%;
+}
+.descp{
+    color: white;
+    margin-top: 13vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3vw;
+    font-weight: 900;
+}
+h5{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+h6{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+.search_bar{
+    margin-top: 1vw;
+    display: flex;
+    gap: 1vw;
+}
+.search{
+    width: 30%;
+}
+.inp{
+    background-color: black;
+    opacity: 0.5;
+}
+label{
+    color: #A3A8AC;
+}
+.search_button{
+    background-color: red;
+    height: 3.8vw;
+    width: 11vw;
+    font-weight: 700;
+}
+
+        /*part 2*/
+
+#box2{
+    background-color: black;
+    height: 38vw;
+}
+.part2{
+    display: flex;
+    margin: 3% 5%;
+}
+.line{
+    background-color: #232323;
+    height: 0.5vw;
+}
+.promo2{
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    color: white;
+}
+.animation2{
+    z-index: 1;
+}
+.video2{
+    position: absolute;
+    top: 109%;
+    left: 58%;
+    z-index: -1;
+}
+        /*part 2*/
+#box4{
+    background-color: black;
+    height: 38vw;
+}
+.part4{
+    display: flex;
+    margin: 3% 5%;
+}
+.animation4{
+    z-index: 1;
+}
+.video4{
+    position: absolute;
+    top: 260%;
+    left: 61%;
+    z-index: -1;
+}
+.vid4{
+    width: 83%;
+}
+.ques{
+    background-color: black;
+}
+.ques h1{
+    color: white;
+    padding: 5% 0 2% 0;
+    display: flex;
+}
+.accordion{
+    width: 80%;
+    margin: 0 10%;
+}
+.accordion-button{
+    color: white;
+    background-color: #2D2D2D;
+    font-size: x-large;
+}
+.accordion-body{
+    color: white;
+    background-color: #2D2D2D;
+    font-size: x-large;
+}
+.accordion-item{
+    margin-bottom: 1%;
+    border-bottom: none;
+}
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+}
+.ques h6{
+    color: white;
+    margin: 2% 0;
+}
+.last_box{
+    background-color: black;
+}
+.last_box .line{
+    
+}
+.links{
+    margin: 3% 0% 3% 13%;
+    color: #B3B2B2;
+}
+#num{
+    text-decoration: underline;
+}
+.links2{
+    margin-left: 19%;
+}
+.links3{
+    margin-left: 19%;
+}
+a{
+    color: #B3B2B2;
+    margin-bottom: 1%;
+}
+#mar{
+    margin-top: 4%;
+    display: flex;
+}
+.dropdown2{
+    margin-left: 13%;
+}
+#end{
+    color: #B3B2B2;
+    margin: 0 13%;
+}
+.container{
+    position: absolute;
+    background-color: black;
+    top: 221%;
+    left: 14%;
+    width: 25%;
+    height: 13%;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 9px;
+    justify-content: left;
+    gap: 7%;
+    padding: 1%;
+}
+.download{
+    background-image: url(./Assets/Images/image3.2.gif);
+    width: 21%;
+    background-position: center;
+    margin-left: 14%;
+}
+.imd31{
+    width: 51px;
+}
